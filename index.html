@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="https://fav.farm/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Primary Meta Tags (Invisible to site visitors) -->
+  <title>OptiLoad India - Intelligent 3D Load Optimization & Multi-Modal Freight</title>
+  <meta name="title" content="OptiLoad India - Intelligent 3D Load Optimization & Multi-Modal Freight" />
+  <meta name="description"
+    content="Next-generation logistics intelligence optimizing road, air, and maritime freight in India with 3D cargo packing, multi-stop LIFO route planning, and real-time fleet telemetry." />
+  <meta name="keywords"
+    content="logistics optimization, 3d load optimization, freight route planning, Indian transport vehicles, Tata Signa, Ashok Leyland, bin packing algorithm, supply chain analytics, fleet tracking" />
+  <meta name="author" content="OptiLoad India" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="bEtjNTAeMHB9ZitoAhW9-H8LTGiM-d3OpdaodDehiQY" />
+  <link rel="canonical" href="https://optiload.in.net" />
+
+  <!-- Open Graph / Facebook / WhatsApp (Invisible in page, displays on shared links) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://optiload.in.net" />
+  <meta property="og:site_name" content="OptiLoad India" />
+  <meta property="og:title" content="OptiLoad India - Next-Gen Logistics Intelligence" />
+  <meta property="og:description"
+    content="Optimize cargo placement, reduce freight costs, and streamline multi-modal routes with 3D load optimization and live fleet telemetry." />
+  <meta property="og:image" content="https://optiload.in.net/favicon.ico" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://optiload.in.net" />
+  <meta name="twitter:title" content="OptiLoad India - Intelligent Logistics Platform" />
+  <meta name="twitter:description"
+    content="AI-driven 3D load bin packing and multi-modal fleet route planning across India." />
+
+  <!-- Schema.org Structured Data for Search Engines & AI Crawlers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "OptiLoad India",
+    "operatingSystem": "All",
+    "applicationCategory": "BusinessApplication",
+    "description": "Enterprise multi-modal freight and 3D cargo load planning software with real-time fleet telemetry and AI route optimization.",
+    "url": "https://optiload.in.net",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "OptiLoad India",
+      "url": "https://optiload.in.net"
+    }
+  }
+  </script>
+
+  <!-- Leaflet CSS for Maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e',
+            },
+            neon: {
+              blue: '#00f3ff',
+              purple: '#bc13fe',
+              green: '#0aff0a',
+            }
+          },
+          animation: {
+            'blob': 'blob 7s infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+          },
+          keyframes: {
+            blob: {
+              '0%': { transform: 'translate(0px, 0px) scale(1)' },
+              '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+              '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+              '100%': { transform: 'translate(0px, 0px) scale(1)' },
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-20px)' },
+            },
+            'pulse-glow': {
+              '0%, 100%': { opacity: '1', boxShadow: '0 0 20px rgba(0, 243, 255, 0.5)' },
+              '50%': { opacity: '.5', boxShadow: '0 0 10px rgba(0, 243, 255, 0.2)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-gray-50 text-slate-900 antialiased selection:bg-brand-200">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
