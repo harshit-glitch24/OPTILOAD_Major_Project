@@ -402,6 +402,16 @@ This project contains a mixture of implemented application code, deterministic a
 
 For the detailed evidence and remediation plan, read **[REALITY_GAP_REPORT.md](REALITY_GAP_REPORT.md)**. For algorithm descriptions, read **[AI_ML_ALGORITHMS_REFERENCE.md](AI_ML_ALGORITHMS_REFERENCE.md)**. Treat benchmark numbers in secondary documentation as claims to verify against reproducible training/evaluation runs before using them in a presentation or report.
 
+
+
+## Architecture Documentation
+
+For a deeper technical view, see the dedicated **[Architecture Documentation](docs/architecture/README.md)**:
+
+- [System Architecture](docs/architecture/system-architecture.md) — layered architecture and component responsibilities.
+- [Module Map](docs/architecture/module-map.md) — where the major frontend, backend, domain, and ML modules live.
+- [Workflow Diagrams](docs/architecture/workflows.md) — request lifecycle, cargo packing, multimodal routing, and AI-assisted analysis.
+
 ## Project Documentation
 
 - **[Reality Gap Report](REALITY_GAP_REPORT.md)** — current implementation, data provenance, limitations, and engineering roadmap.
